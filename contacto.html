@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Whisky Room</title>
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/06c6725e65.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+
+    <header>
+        
+
+        <!--Header y Footer con flexbox-->
+        <!--Responsive con media queries-->
+
+        <div id="encabezado" class="flex-container">
+        
+            <a href="index.html">
+            <img class="icono" src="img/icono.jpg" alt="Logo" >
+            </a>
+
+            <h1>The Whisky Room</h1>
+        
+            <nav>
+                 <ul class="flex-list">
+                    <li><a class="navli" href="index.html">Inicio</a></li>
+                    <li><a class="navli" href="blend.html">Blend</a></li>
+                    <li><a class="navli" href="irish.html">Irish</a></li>
+                    <li><a class="navli" href="bourbon.html">Bourbon</a></li>
+                    <li><a class="navli" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+         </div>
+
+    </header>
+
+    <main>
+        
+        <form action="https://formspree.io/f/xbjqgplk" method="POST" target="_blank">        
+            <div class="flex-form">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <div class="datos">
+                <div>                    
+                    <label>Nombres:  </label>
+                    <input type="text" name="nombre">
+                </div>
+                <div>
+                    <label >Apellido:  </label>
+                    <input type="text" name="apellido">
+                </div>
+                <div>
+                    <label>Direccion Email:  </label>
+                    <input type="text" name="email">
+                </div>
+                <div>
+                    <label>Teléfono:  </label>
+                    <input type="text" name="telefono">
+                </div>
+            </div>
+            </fieldset>
+
+            <div>
+                <label>
+                    Asunto del Mensaje:  
+                    <select name="selector">
+                        <option value="blend">Blend</option>
+                        <option value="irish">Irish</option>
+                        <option value="bourbon">Bourbon</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>Comentarios: </label>
+                <div class="texto">
+                    <textarea name="comentarios" cols="35" rows="5"></textarea>
+                </div>                
+            </div>
+
+            <div>
+                <input class="boton" type="reset" name="reset">
+                <input class="boton" type="submit" name="submit">
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d105053.23547684791!2d-58.5745805!3d-34.6316234!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7829701685ae47c4!2sEstadio%20Diego%20Armando%20Maradona!5e0!3m2!1ses-419!2sar!4v1621313371726!5m2!1ses-419!2sar" width="270" height="200" style="border:0;" allowfullscreen="" loading="lazy" target="_blank"></iframe>
+
+            </div>
+
+            
+
+            
+        </form>
+
+        
+
+
+        <!--
+                <form action="" method="POST">
+                    
+                        <fieldset>
+                            <legend>Datos Personales</legend>
+                            <label>
+                                Nombres: 
+                                <input type="text" name="nombre">
+                            </label>
+                            <label>
+                                Apellido: 
+                                <input type="text" name="nombre">
+                            </label>
+                            <label>
+                                Email: 
+                                <input type="text" name="email">
+                            </label>
+                            <label>
+                                Teléfono: 
+                                <input type="text" name="telefono">
+                            </label>
+                        </fieldset>
+                    
+                        <label>
+                            Asunto del Mensaje: 
+                            <select name="selector">
+                                <option value="blend">Blend</option>
+                                <option value="irish">Irish</option>
+                                <option value="bourbon">Bourbon</option>
+                                <option value="otros">Otros</option>
+                            </select>
+                        </label>
+                        <label>
+                            Comentarios: 
+                            <textarea name="comentarios" cols="60" rows="5"></textarea>
+                        </label>
+
+
+                </form>
+            </div>
+        </section>-->
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer> <!--Responsive con flex-->
+        <div class="flex-container">
+            
+        <section class="pie">
+
+            <div class="datos">
+                <div  class="datos-pie">
+                    <a href="https://goo.gl/maps/PMKGcombLobV1CN26" target="_blank"><i class="fas fa-map-marker-alt"> Gavilán 2151, C1416 CABA</i></a>
+                    
+                </div>
+                <div  class="datos-pie">
+                    <i class="fas fa-phone"></i>
+                    4444-4444</div>
+                <div  class="datos-pie mail">
+                    <i class="far fa-envelope"></i>
+                    thewhiskyroom@gmail.com</div>
+            </div>
+
+        </section>
+
+        <section class="pie">
+
+            <div>
+                <div class="datos-pie">¿Quienes somos?</div>
+                <div  class="datos-pie">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam earum architecto numquam voluptatum aliquam autem non ipsum error ipsa?</div>
+                <div  class="datos-pie">
+                    <div>
+                        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </div>                    
+                </div>
+            </div>
+
+        </section>
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>

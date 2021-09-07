@@ -1,0 +1,72 @@
+main {
+    background-color: black;
+    width: 100%;
+}
+
+
+.col-4 {
+    border: solid;
+    padding: 0 !important;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.scotch-banner {
+    background-image: url(..//img/blend-banner.jpg);
+    background-position: right;
+}
+
+
+.irish-banner {
+    background-image: url(..//img/irish-banner.jpg);
+    background-position: center;
+}
+
+.bourbon-banner {
+    background-image: url(..//img/bourbon-banner.jpg);
+    background-position: left;
+}
+
+.scotch-banner:hover {
+    color: white;
+    border-radius: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.irish-banner:hover {
+    color: white;
+    border-radius: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    
+}
+
+.bourbon-banner:hover {
+    color: white;
+    border-radius: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    text-overflow: ellipsis;
+}
+
+h2{     
+    color: white;
+    text-align: center;    
+}
+
+.row a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+

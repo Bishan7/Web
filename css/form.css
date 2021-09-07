@@ -1,0 +1,42 @@
+main {
+    background-color: black;
+}
+
+.flex-form{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.texto {
+    margin-left: 10px;
+}
+
+legend {
+    margin-left: 10px;
+}
+
+.boton {
+    margin-left: 10px;
+    size: 20px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+

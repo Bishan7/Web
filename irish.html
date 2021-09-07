@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Whisky Room</title>
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/types.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/06c6725e65.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+    <header>
+        
+
+        <!--Header y Footer con flexbox-->
+        <!--Responsive con media queries-->
+
+        <div id="encabezado" class="flex-container">
+        
+            <a href="index.html">
+            <img class="icono" src="img/icono.jpg" alt="Logo" >
+            </a>
+
+            <h1>The Whisky Room</h1>
+        
+            <nav>
+                 <ul class="flex-list">
+                    <li><a class="navli" href="index.html">Inicio</a></li>
+                    <li><a class="navli" href="blend.html">Blend</a></li>
+                    <li><a class="navli" href="irish.html">Irish</a></li>
+                    <li><a class="navli" href="bourbon.html">Bourbon</a></li>
+                    <li><a class="navli" href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+
+         </div>
+
+    </header>
+
+    <main> <!--main realizado con grid-->
+
+        <section>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="img/irish/jameson-black.jpg" alt="item 1">
+                    <div>
+                        <h2>Jameson Black Barrel</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: intensos aromas de caramelo, azúcar y caramelo cremoso.</li>
+                            <li>Paladar: notas con aroma a nuez junto con la suave dulzura de las especias y la vainilla.</li>
+                            <li>Final: suave y equilibrada.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/irish/teeling-malt.jpg" alt="item 2">
+                    <div>
+                        <h2>Teeling Single Malt</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: vibrante con notas de melón, higos, toffee y limón.</li>
+                            <li>Paladar: mezcla equilibrada de frutos secos, cítricos, vainilla y especias.</li>
+                            <li>Final: largo, dulce, en armonía con los taninos secos de la madera.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/irish/tullamore.jpg" alt="item 3">
+                    <div>
+                        <h2>Tullamore Dew</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: ligero, dulce cítrico y manzana verde combinado con matices de vainilla.</li>
+                            <li>Paladar: fruta fresca seguido de un toque de madera tostada y vainilla.</li>
+                            <li>Final: suave y mantecoso.</li>
+                        </ul>
+                    </div>
+                </div>            
+                <div class="grid-item">
+                    <img src="img/irish/bushmills.jpg" alt="item 4">
+                    <div>
+                        <h2>Bushmills Original</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: predomina la naranja junto con otros cítricos. Luego perfume de flores, notas de madera y caramelo.</li>
+                            <li>Paladar: ligero y fácil de beber. Sabor a madera y un leve regusto a humo. Toques de vainilla y de manzana verde.</li>
+                            <li>Final: final largo, no demasiado seco donde predomina la manzana verde.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/irish/jameson.jpg" alt="item 5">
+                    <div>
+                        <h2>Jameson</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: fragancia floral ligera, con aroma a madera con notas especiadas y dulces.</li>
+                            <li>Paladar: suave y dulce con tonos amaderados y nueces.</li>
+                            <li>Final: increíblemente suave.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/irish/teeling-grain.jpg" alt="item 6">
+                    <div>
+                        <h2>Teeling Single Grain</h2>
+                        <h4>Notas de Cata:</h4>
+                        <ul>
+                            <li>Nariz: dulce con taninos amargos, hojas verdes, hierbas secas, chocolate negro, mermelada y anís.</li>
+                            <li>Paladar: especias (canela y nuez moscada), frutas, uva, roble y caramelo.</li>
+                            <li>Final: uva y toques tánicos de vino tinto, mantecoso.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                
+
+        </section>
+
+    </main>
+
+    <footer> <!--Responsive con flex-->
+        <div class="flex-container">
+            
+        <section class="pie">
+
+            <div class="datos">
+                <div  class="datos-pie">
+                    <a href="https://goo.gl/maps/PMKGcombLobV1CN26" target="_blank"><i class="fas fa-map-marker-alt"> Gavilán 2151, C1416 CABA</i></a>
+                    
+                </div>
+                <div  class="datos-pie">
+                    <i class="fas fa-phone"></i>
+                    4444-4444</div>
+                <div  class="datos-pie mail">
+                    <i class="far fa-envelope"></i>
+                    thewhiskyroom@gmail.com</div>
+            </div>
+
+        </section>
+
+        <section class="pie">
+
+            <div>
+                <div class="datos-pie">¿Quienes somos?</div>
+                <div  class="datos-pie">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam earum architecto numquam voluptatum aliquam autem non ipsum error ipsa?</div>
+                <div  class="datos-pie">
+                    <div>
+                        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </div>                    
+                </div>
+            </div>
+
+        </section>
+
+        </div>
+    </footer>
+
+    
+</body>
+</html>
